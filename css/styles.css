@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0 ;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.galeria {
+    width: 90%;
+    margin: 0 auto 50px;
+}
+
+.galeria a,
+.galeria img {
+    display: block;
+    width: 100%;
+}
+.galeria a:not(:first-child) {
+    margin-top: 20px;
+}
